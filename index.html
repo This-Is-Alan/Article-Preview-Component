@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+  <main class="card">
+    <div class="card__container">
+
+      <!--  Image Section  -->
+      <div class="card-img__wrapper">
+        <img class="card-img" src="./images/drawers.jpg" alt="dresser">
+      </div>
+
+        <!--  Card Info Section  -->
+        <div class="card-info__container">
+          <div class="card-info__wrapper">
+            <h1 class="card-info__title">
+              Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home
+            </h1>
+            <p class="card-info__desc">
+              Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.
+            </p>
+          </div>
+
+          <div class="card-profile__container">
+
+            <div class="card-profile-img__wrapper">
+              <img class="card-profile__avatar" src="./images/avatar-michelle.jpg" alt="user avatar">
+            </div>
+
+            <div class="card-user-info__wrapper">
+              <p class="card-user-info__name">
+                Michelle Appleton
+              </p>
+              <p class="card-user-info__date">
+                28 Jun 2020
+              </p>
+            </div>
+
+            <div id="share" class="card-share__wrapper">
+                <img src="./images/icon-share.svg" alt="share-button">
+                
+                <!--  Pop Up Section Hidden  -->
+                <div class="card-share-pop">
+                  <h3 class="card-share-pop__title">share</h3>
+                  <a href="#"><img src="./images/icon-facebook.svg" alt="facebook-logo"></a>
+                  <a href="#"><img src="./images/icon-twitter.svg" alt="twitter-logo"></a>
+                  <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest-logo"></a>
+
+                  <!--  Mobile View Share Button   -->
+                  <div id="share-mobile" class="pop-button__wrapper">
+                    <img src="./images/icon-share.svg" alt="share-button">
+                  </div>
+                </div>
+            
+              </div>
+          </div>
+        </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/This-Is-Alan/Article-Preview-Component" target="_blank">This-Is-Alan</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
